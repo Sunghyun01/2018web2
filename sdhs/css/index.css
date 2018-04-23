@@ -71,6 +71,10 @@ header{
     color: #000;
 }
 #drop > ul > li > ul > li:hover{ background-color: #88bbff;}
+section{
+    width: 1000px;
+    height: 1150px;
+}
 #slide{
     width:1000px;
     height:600px;
@@ -160,5 +164,49 @@ input{
     font-size: 20px;
     font-weight: bolder;
 }
-P{
-    text-align: center;}
+P{text-align: center;}
+footer{
+    width: 1000px;
+    height: 150px;
+}
+#footer_logo{
+    padding: 30px;
+}
+#ul_box {
+    width: 600px;
+    height: 150px;
+    float: right;
+}
+#privacy {
+    width: 480px;
+    height: 20px;
+    list-style: none;
+    padding: 10px;
+}
+#privacy>li{
+    width: 120px;
+    height: 20px;
+    float: left;
+    font-size: 12px;
+    line-height: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    border-left: 1px solid black;
+
+    border-collapse: collapse;
+}
+#privacy li:first-child {
+    border: 0;
+}
+#space{
+    width: 400px;
+    height: 45px;
+    list-style: none;
+    padding: 10px;
+}
+#space>li{
+    width: 400px;
+    height: 15px;
+    line-height: 10px;
+    font-size: 12px;
+}

@@ -6,7 +6,6 @@ function up() {
     }else{
         td.innerHTML = n + 1;
     }
-    td.innerHTML = n + 1;
 }
 function down() {
     var td = document.getElementById("test");
@@ -23,12 +22,12 @@ $(document).ready(function () {
     var i=1;
     setInterval(function(){
         slide.eq(i).css("left","1000px");
-        slide.eq(i-1).animate({"left":"-1000px"},2000);
-        slide.eq(i).animate({"left":"0"},2000)
+        slide.eq(i-1).animate({"left":"-1000px"},500);
+        slide.eq(i).animate({"left":"0"},500)
         if(i<3)
             i++;
         else
             i=0;
-    },2000);
+    },2500);
 })
 
