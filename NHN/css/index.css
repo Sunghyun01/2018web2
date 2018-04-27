@@ -1,0 +1,132 @@
+*{ margin: 0;  padding: 0;}
+#wrap{  width: 1600px;  height: 2470px;margin: 0 auto;}
+header{ width: 1600px;height: 1100px;}
+nav{
+    width: 1600px;
+    height: 100px;
+    background-color: black;
+}
+nav>ul{
+    width: 400px;
+    height: 100px;
+    float: right;
+    list-style: none;
+}
+nav>ul>li{
+    width: 200px;
+    height: 100px;
+    float: right;
+    font-size: 20px;
+    color:white;
+}
+header>img{
+    width: 1600px;
+    height: 1000px;
+}
+section{
+    width: 1600px;
+    height: 1250px;
+}
+footer{
+    width: 1600px;
+    height: 120px;
+    background-color: black;
+}
+p{
+    color: white;
+    position: absolute;
+    z-index: 10;
+    font-size: 30px;
+    padding: 30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#logo{
+    padding: 30px;
+}
+ul{
+    width: 300px;
+    height: 100px;
+}
+ul>li{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+#fir_box{
+    width: 800px;
+    height: 400px;
+    float: left;
+}
+#sec_box{
+    width: 800px;
+    height: 400px;
+    float: right;
+}
+#fir_box>img,#sec_box>img{
+    width: 800px;
+    height: 400px;
+    position: absolute;
+}
+#thr_box{
+    width: 1600px;
+    height: 700px;
+    float: right;
+}
+#thr_box>img{
+    width: 1600px;
+    height: 700px;
+    position: absolute;
+}
+#fir_box>ul,#sec_box>ul,#thr_box>ul{
+    width: 370px;
+    height: 30px;
+    float: left;
+    position: absolute;
+    z-index: 10;
+    padding: 70px;
+}
+#fir_box>ul>li,#sec_box>ul>li,#thr_box>ul>li{
+    width: 120px;
+    height: 30px;
+    list-style: none;
+    text-align: center;
+    line-height: 30px;
+    float: left;
+    color: white;
+    font-size: 18px;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    cursor: pointer;
+}
+#text_box1{
+    width: 800px;
+    height: 150px;
+    float: left;
+}
+#text_box2{
+    width: 800px;
+    height: 150px;
+    float: right;
+}
+.main{
+    font-size: 25px;
+    color: black;
+    text-align: left;
+    float: left
+}
+table{
+    width: 800px;
+    height: 100px;
+    border-top: 1px solid black;
+}
+td{cursor: pointer}
+#footer_text{
+    font-size: 20px;
+    line-height: 120px;
+    padding: 0;
+    text-align: center;
+}
