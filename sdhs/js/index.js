@@ -1,11 +1,20 @@
-function up() {
-    var td = document.getElementById("test");
-    var n = Number(td.innerHTML);
-    if(n>=30){
-        n=30;
-    }else{
-        td.innerHTML = n + 1;
+function day() {
+    var date = new Date();
+    var day = date.getDate();
+    document.write(day);
+}
+function month() {
+    var date = new Date();
+    var month = date.getMonth()+1
+    if(month<=10){
+        document.write("0"+month);
+    }else {
+        document.write(month);
     }
+}
+
+function up() {
+    
 }
 function down() {
     var td = document.getElementById("test");
@@ -29,5 +38,5 @@ $(document).ready(function () {
         else
             i=0;
     },2500);
-})
 
+})

@@ -16,6 +16,7 @@ header{
     width: 250px;
     height: auto;
     padding: 30px;
+    cursor: pointer;
 }
 #top_menu{
     width: 1000px;
@@ -168,6 +169,7 @@ P{text-align: center;}
 footer{
     width: 1000px;
     height: 150px;
+    background-color: #ebe6e4;
 }
 #footer_logo{
     padding: 30px;
