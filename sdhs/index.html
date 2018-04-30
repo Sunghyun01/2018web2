@@ -4,16 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <title>서울 디지텍고등학교</title>
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/index.css?v2">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script src="./js/index.js"></script>
+    <script src="./js/index.js?ver=12"></script>
 
 </head>
 <body>
     <div id="wrap">
         <header>
             <div id="top_menu">
-                <img src="./img/logo.PNG"alt="logo" id="logo">
+                <img src="./img/logo.PNG" alt="logo" id="logo">
                 <ul>
                     <li><a href="#">홈</a></li>
                     <li><a href="#">로그인</a></li>
@@ -70,7 +70,10 @@
                 <li><img src="./img/slide4.jpg" alt="slide_img"></li>
             </div>  
         <div id="small_slide">
-            <img src="./img/smslide.PNG" alt="img">
+            <li><img src="./img/smslide.PNG" alt="img"></li>
+            <li><img src="./img/smslide2.PNG" alt="img"></li>
+            <li><img src="./img/smslide3.PNG" alt="img"></li>
+            <li><img src="./img/smslide4.PNG" alt="img"></li>
         </div>
                 <div id="table_box">
                     <table>
@@ -109,9 +112,14 @@
                         <input type="button" value=">" onclick="up()" />
                     </div>
                     </div>
+                    <div id="pop">
+                        <div id="del">X</div>
+                        <img src="./img/food1.jpg" alt="food">
+                     </div>
+
                     <div id="food">
                         <p id="food_text">오늘의 급식</p>
-                        <img src="./img/food1.jpg" alt="food">
+                        <img src="./img/food1.jpg" alt="food" id="pan">
                         <p>오늘의 급식 정보가 존재하지 않습니다</p>
                     </div>
         </section>
@@ -133,3 +141,4 @@
         </footer>
     </div>
 </body>
+</html>

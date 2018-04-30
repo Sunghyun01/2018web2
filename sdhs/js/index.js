@@ -38,5 +38,21 @@ $(document).ready(function () {
         else
             i=0;
     },2500);
-
+    var smslide=$("#small_slide>li");
+    var j=1;
+    setInterval(function(){
+        smslide.eq(j).css("left","100%");
+        smslide.eq(j-1).animate({"left":"-100%"},500);
+        smslide.eq(j).animate({"left":"0"},500)
+        if(j<3)
+            j++;
+        else
+            j=0;
+    },2500);
+    $("#pan").click(function () {
+        $("#pop").fadeIn();
+    })
+    $("#del").click(function () {
+        $("#pop").fadeOut();
+    })
 })
